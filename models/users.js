@@ -19,6 +19,9 @@ const userSchema = Schema({
     type: String,
     default: null,
   },
+  avatarURL: {
+    type: String,
+  },
 });
 
 module.exports = model("user", userSchema);
